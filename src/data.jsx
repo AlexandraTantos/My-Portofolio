@@ -19,6 +19,8 @@ import simon from "./components/images/simon.png";
 import monster from "./components/images/monster.png";
 import rockpaperscissors from "./components/images/rock.png";
 import grocery from "./components/images/Grocery.png";
+import mixmaster from "./components/images/mixmaster.png";
+
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#about", text: "about" },
@@ -137,6 +139,14 @@ export const projects = [
     github: "https://github.com/alexandratantos",
     title: "Grocery Buddy",
     text: "Seamlessly organize, plan, and streamline your grocery lists with an intuitive interface. Elevate your shopping routine and enjoy a stress-free way to stay organized.",
+  },
+  {
+    id: nanoid(),
+    img: mixmaster,
+    url: "https://mixmaster-react-app9.netlify.app",
+    github: "https://github.com/alexandratantos",
+    title: "MixMaster",
+    text: "MixMaster React app, fueled by the CocktailDB API and React Query, provides instant access to an array of cocktail recipes. Cheers to effortless cocktail discovery with MixMaster!",
   },
 ];
 export const games = [
