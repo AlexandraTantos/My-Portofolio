@@ -70,14 +70,6 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: colorGenerator,
-    url: "https://reactcolorgenerator2.netlify.app/",
-    github: "https://github.com/alexandratantos",
-    title: "Color Generator ",
-    text: "Explore a world of vibrant possibilities with our color generator app powered by React and the values.js library. Effortlessly discover stunning color palettes with just a click. ",
-  },
-  {
-    id: nanoid(),
     img: reactstore,
     url: "https://comfystore123.netlify.app",
     github: "https://github.com/alexandratantos",
@@ -86,19 +78,35 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: Tours,
-    url: "https://toursreactapp23.netlify.app/",
-    github: "https://github.com/alexandratantos",
-    title: "Tours ",
-    text: "Discover the world's wonders effortlessly, as our intuitive interface guides you through captivating destinations and extraordinary adventures.",
-  },
-  {
-    id: nanoid(),
     img: unsplash,
     url: "https://unsplashapi9.netlify.app/",
     github: "https://github.com/alexandratantos",
     title: "Unsplash App",
     text: "Dive into a visual feast on our React-driven images website, seamlessly powered by the Unsplash API. Immerse yourself in a curated collection of breathtaking photos.",
+  },
+  {
+    id: nanoid(),
+    img: backroads,
+    url: "https://backroads31.netlify.app/#home",
+    github: "https://github.com/alexandratantos",
+    title: "Backroads Tours",
+    text: "Embark on unforgettable journeys with our React-powered tour website. Immerse yourself in seamless navigation, rich visuals, and personalized experiences.",
+  },
+  {
+    id: nanoid(),
+    img: colorGenerator,
+    url: "https://reactcolorgenerator2.netlify.app/",
+    github: "https://github.com/alexandratantos",
+    title: "Color Generator ",
+    text: "Explore a world of vibrant possibilities with our color generator app powered by React and the values.js library. Effortlessly discover stunning color palettes with just a click. ",
+  },
+  {
+    id: nanoid(),
+    img: Tours,
+    url: "https://toursreactapp23.netlify.app/",
+    github: "https://github.com/alexandratantos",
+    title: "Tours ",
+    text: "Discover the world's wonders effortlessly, as our intuitive interface guides you through captivating destinations and extraordinary adventures.",
   },
   {
     id: nanoid(),
@@ -123,14 +131,6 @@ export const projects = [
     github: "https://github.com/alexandratantos",
     title: "Natours ",
     text: "Discover the beauty of nature with our Sass-styled nature tours website. Immerse yourself in breathtaking landscapes and eco-friendly adventures.",
-  },
-  {
-    id: nanoid(),
-    img: backroads,
-    url: "https://backroads31.netlify.app/#home",
-    github: "https://github.com/alexandratantos",
-    title: "Backroads Tours",
-    text: "Embark on unforgettable journeys with our React-powered tour website. Immerse yourself in seamless navigation, rich visuals, and personalized experiences.",
   },
   {
     id: nanoid(),
