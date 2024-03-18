@@ -78,6 +78,14 @@ export const projects = [
   },
   {
     id: nanoid(),
+    img: reactstore,
+    url: "https://comfystore123.netlify.app",
+    github: "https://github.com/alexandratantos",
+    title: "Comfy Store App",
+    text: "This website is designed with both functionality and aesthetics in mind, utilizing the power of Tailwind CSS and React to create a seamless and visually stunning shopping experience.",
+  },
+  {
+    id: nanoid(),
     img: Tours,
     url: "https://toursreactapp23.netlify.app/",
     github: "https://github.com/alexandratantos",
@@ -134,14 +142,6 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: grocery,
-    url: "https://groceriesmanager.netlify.app/",
-    github: "https://github.com/alexandratantos",
-    title: "Grocery Buddy",
-    text: "Seamlessly organize, plan, and streamline your grocery lists with an intuitive interface. Elevate your shopping routine and enjoy a stress-free way to stay organized.",
-  },
-  {
-    id: nanoid(),
     img: mixmaster,
     url: "https://mixmaster-react-app9.netlify.app",
     github: "https://github.com/alexandratantos",
@@ -150,11 +150,11 @@ export const projects = [
   },
   {
     id: nanoid(),
-    img: reactstore,
-    url: "https://comfystore123.netlify.app",
+    img: grocery,
+    url: "https://groceriesmanager.netlify.app/",
     github: "https://github.com/alexandratantos",
-    title: "Comfy Store App",
-    text: "This website is designed with both functionality and aesthetics in mind, utilizing the power of Tailwind CSS and React to create a seamless and visually stunning shopping experience.",
+    title: "Grocery Buddy",
+    text: "Seamlessly organize, plan, and streamline your grocery lists with an intuitive interface. Elevate your shopping routine and enjoy a stress-free way to stay organized.",
   },
 ];
 export const games = [
