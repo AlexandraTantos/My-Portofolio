@@ -21,6 +21,7 @@ import rockpaperscissors from "./components/images/rock.png";
 import grocery from "./components/images/Grocery.png";
 import mixmaster from "./components/images/mixmaster.png";
 import reactstore from "./components/images/reactstore.png";
+import githubusers from "./components/images/githubusers.png";
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#about", text: "about" },
@@ -75,6 +76,14 @@ export const projects = [
     github: "https://github.com/alexandratantos",
     title: "Comfy Store App",
     text: "This website is designed with both functionality and aesthetics in mind, utilizing the power of Tailwind CSS and React to create a seamless and visually stunning shopping experience.",
+  },
+  {
+    id: nanoid(),
+    img: githubusers,
+    url: "https://findinggithubusers.netlify.app",
+    github: "https://github.com/alexandratantos",
+    title: "GitFinder",
+    text: "GitFinder leverages React and React Router for smooth browsing, integrating the GitHub API seamlessly. Unlock insights with Fusion Charts for dynamic visualizations. Start exploring GitHub users effortlessly with GitFinder!",
   },
   {
     id: nanoid(),
