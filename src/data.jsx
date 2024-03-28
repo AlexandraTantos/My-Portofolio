@@ -103,6 +103,14 @@ export const projects = [
   },
   {
     id: nanoid(),
+    img: mixmaster,
+    url: "https://mixmaster-react-app9.netlify.app",
+    github: "https://github.com/alexandratantos",
+    title: "MixMaster",
+    text: "MixMaster React app, fueled by the CocktailDB API and React Query, provides instant access to an array of cocktail recipes. Cheers to effortless cocktail discovery with MixMaster!",
+  },
+  {
+    id: nanoid(),
     img: colorGenerator,
     url: "https://reactcolorgenerator2.netlify.app/",
     github: "https://github.com/alexandratantos",
@@ -148,14 +156,6 @@ export const projects = [
     github: "https://github.com/alexandratantos",
     title: "Color Flipper",
     text: "Indulge in a spectrum of colors with our JavaScript-powered color flipper website. Witness a dynamic display of vibrant hues in a stylish CSS layout.",
-  },
-  {
-    id: nanoid(),
-    img: mixmaster,
-    url: "https://mixmaster-react-app9.netlify.app",
-    github: "https://github.com/alexandratantos",
-    title: "MixMaster",
-    text: "MixMaster React app, fueled by the CocktailDB API and React Query, provides instant access to an array of cocktail recipes. Cheers to effortless cocktail discovery with MixMaster!",
   },
   {
     id: nanoid(),
