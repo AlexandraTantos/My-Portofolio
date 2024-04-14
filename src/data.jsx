@@ -133,7 +133,7 @@ export const projects = [
     url: "https://menuitems2.netlify.app/",
     github: "https://github.com/alexandratantos",
     title: "Menu App",
-    text: "Experience a delightful culinary journey on our React-based menu website. Crafted for simplicity and elegance, explore a diverse array of dishes thoughtfully organized.",
+    text: "Experience a delightful culinary journey on our JavaScript-based menu website. Crafted for simplicity and elegance, explore a diverse array of dishes thoughtfully organized.",
   },
   {
     id: nanoid(),
