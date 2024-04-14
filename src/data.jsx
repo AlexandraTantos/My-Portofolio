@@ -7,6 +7,7 @@ import {
   FaNode,
   FaDatabase,
 } from "react-icons/fa";
+//Images for projects
 import backroads from "./components/images/backroads.png";
 import colorGenerator from "./components/images/color-generator.png";
 import Tours from "./components/images/tours.jpg";
