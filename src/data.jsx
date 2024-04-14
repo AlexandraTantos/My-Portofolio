@@ -141,7 +141,7 @@ export const projects = [
     url: "https://furniture-shop8.netlify.app",
     github: "https://github.com/alexandratantos",
     title: "Comfy Store",
-    text: "Immerse yourself in the world of exquisite furnishings with our React-powered store website. Elevate your living spaces with our collection,presented in a stunning design.",
+    text: "Immerse yourself in the world of exquisite furnishings with our JavaScript-powered store website. Elevate your living spaces with our collection,presented in a stunning design.",
   },
   {
     id: nanoid(),
