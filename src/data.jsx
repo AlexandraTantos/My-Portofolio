@@ -22,6 +22,7 @@ import grocery from "./components/images/Grocery.png";
 import mixmaster from "./components/images/mixmaster.png";
 import reactstore from "./components/images/reactstore.png";
 import githubusers from "./components/images/githubusers.png";
+
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
   { id: nanoid(), href: "#about", text: "about" },
