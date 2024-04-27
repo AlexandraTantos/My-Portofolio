@@ -40,7 +40,7 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: "Javascript",
+    title: "JavaScript",
     icon: <FaJs className="h-16 w-16 text-emerald-500" />,
     text: "Proficient in JavaScript, crafting dynamic and interactive web applications that prioritize smooth user interactions and enhanced functionality.",
   },
