@@ -13,7 +13,7 @@ import colorGenerator from "./components/images/color-generator.png";
 import Tours from "./components/images/tours.jpg";
 import unsplash from "./components/images/unsplash.png";
 import menu from "./components/images/menu.png";
-import comfy from "./components/images/comfy.png";
+//import comfy from "./components/images/comfy.png";
 import natours from "./components/images/natours.png";
 import color from "./components/images/color.png";
 import simon from "./components/images/simon.png";
@@ -22,7 +22,7 @@ import rockpaperscissors from "./components/images/rock.png";
 import grocery from "./components/images/Grocery.png";
 import mixmaster from "./components/images/mixmaster.png";
 import reactstore from "./components/images/reactstore.png";
-import githubusers from "./components/images/githubusers.png";
+//import githubusers from "./components/images/githubusers.png";
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -79,6 +79,7 @@ export const projects = [
     title: "Comfy Store App",
     text: "This website is designed with both functionality and aesthetics in mind, utilizing the power of Tailwind CSS and React to create a seamless and visually stunning shopping experience.",
   },
+  /*
   {
     id: nanoid(),
     img: githubusers,
@@ -86,7 +87,7 @@ export const projects = [
     github: "https://github.com/alexandratantos",
     title: "GitFinder",
     text: "GitFinder leverages React and React Router for smooth browsing, integrating the GitHub API seamlessly. Unlock insights with Fusion Charts for dynamic visualizations. Start exploring GitHub users effortlessly with GitFinder!",
-  },
+  }, */
   {
     id: nanoid(),
     img: unsplash,
@@ -135,6 +136,7 @@ export const projects = [
     title: "Menu App",
     text: "Experience a delightful culinary journey on our JavaScript-based menu website. Crafted for simplicity and elegance, explore a diverse array of dishes thoughtfully organized.",
   },
+  /*
   {
     id: nanoid(),
     img: comfy,
@@ -142,7 +144,7 @@ export const projects = [
     github: "https://github.com/alexandratantos",
     title: "Comfy Store",
     text: "Immerse yourself in the world of exquisite furnishings with our React-powered store website. Elevate your living spaces with our collection,presented in a stunning design.",
-  },
+  },*/
   {
     id: nanoid(),
     img: natours,
