@@ -40,7 +40,7 @@ export const skills = [
   },
   {
     id: nanoid(),
-    title: "Javascript",
+    title: "JavaScript",
     icon: <FaJs className="h-16 w-16 text-emerald-500" />,
     text: "Proficient in JavaScript, crafting dynamic and interactive web applications that prioritize smooth user interactions and enhanced functionality.",
   },
@@ -79,15 +79,6 @@ export const projects = [
     title: "Comfy Store App",
     text: "This website is designed with both functionality and aesthetics in mind, utilizing the power of Tailwind CSS and React to create a seamless and visually stunning shopping experience.",
   },
-  /*
-  {
-    id: nanoid(),
-    img: githubusers,
-    url: "https://findinggithubusers.netlify.app",
-    github: "https://github.com/alexandratantos",
-    title: "GitFinder",
-    text: "GitFinder leverages React and React Router for smooth browsing, integrating the GitHub API seamlessly. Unlock insights with Fusion Charts for dynamic visualizations. Start exploring GitHub users effortlessly with GitFinder!",
-  }, */
   {
     id: nanoid(),
     img: unsplash,
@@ -136,15 +127,6 @@ export const projects = [
     title: "Menu App",
     text: "Experience a delightful culinary journey on our JavaScript-based menu website. Crafted for simplicity and elegance, explore a diverse array of dishes thoughtfully organized.",
   },
-  /*
-  {
-    id: nanoid(),
-    img: comfy,
-    url: "https://furniture-shop8.netlify.app",
-    github: "https://github.com/alexandratantos",
-    title: "Comfy Store",
-    text: "Immerse yourself in the world of exquisite furnishings with our React-powered store website. Elevate your living spaces with our collection,presented in a stunning design.",
-  },*/
   {
     id: nanoid(),
     img: natours,
