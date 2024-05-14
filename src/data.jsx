@@ -20,7 +20,7 @@ import simon from "./components/images/simon.png";
 import monster from "./components/images/monster.png";
 import rockpaperscissors from "./components/images/rock.png";
 import grocery from "./components/images/Grocery.png";
-import mixmaster from "./components/images/mixmaster.png";
+//import mixmaster from "./components/images/mixmaster.png";
 import reactstore from "./components/images/reactstore.png";
 //import githubusers from "./components/images/githubusers.png";
 
@@ -111,6 +111,7 @@ export const projects = [
     title: "Color Flipper",
     text: "Indulge in a spectrum of colors with our JavaScript-powered color flipper website. Witness a dynamic display of vibrant hues in a stylish CSS layout.",
   },
+  /*
   {
     id: nanoid(),
     img: mixmaster,
@@ -118,7 +119,7 @@ export const projects = [
     github: "https://github.com/alexandratantos",
     title: "MixMaster",
     text: "MixMaster React app, fueled by the CocktailDB API and React Query, provides instant access to an array of cocktail recipes. Cheers to effortless cocktail discovery with MixMaster!",
-  },
+  },*/
   {
     id: nanoid(),
     img: colorGenerator,
