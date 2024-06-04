@@ -19,7 +19,7 @@ import color from "./components/images/color.png";
 import simon from "./components/images/simon.png";
 import monster from "./components/images/monster.png";
 import rockpaperscissors from "./components/images/rock.png";
-import grocery from "./components/images/Grocery.png";
+//import grocery from "./components/images/Grocery.png";
 //import mixmaster from "./components/images/mixmaster.png";
 import reactstore from "./components/images/reactstore.png";
 import dataStructures from "./components/images/data-structures.png";
@@ -145,14 +145,14 @@ export const projects = [
     title: "Natours ",
     text: "Discover the beauty of nature with our Sass-styled nature tours website. Immerse yourself in breathtaking landscapes and eco-friendly adventures.",
   },
-  {
+  /*{
     id: nanoid(),
     img: grocery,
     url: "https://groceriesmanager.netlify.app/",
     github: "https://github.com/alexandratantos",
     title: "Grocery Buddy",
     text: "Seamlessly organize, plan, and streamline your grocery lists with an intuitive interface. Elevate your shopping routine and enjoy a stress-free way to stay organized.",
-  },
+  },*/
   {
     id: nanoid(),
     img: dataStructures,
