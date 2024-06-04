@@ -159,7 +159,7 @@ export const projects = [
     url: "https://datastructures01.netlify.app/",
     github: "https://github.com/alexandratantos",
     title: "Linked Lists,Stack and Queue",
-    text: "As a web developer, understanding data structures is crucial. The main methods of these data structures(LinkedLists, Stack and Queue) are displayed on this web page using HTML,CSS and JS. ",
+    text: "As a web developer, understanding data structures is crucial. The main methods of these data structures are displayed on this web page using HTML,CSS and JS. ",
   },
 ];
 export const games = [
