@@ -61,13 +61,13 @@ export const skills = [
     id: nanoid(),
     title: "Node",
     icon: <FaNode className="h-16 w-16 text-emerald-500" />,
-    text: "My proficiency in Node.js extends to creating scalable and efficient back-end solutions, ensuring seamless interactions with databases and APIs.",
+    text: "My proficiency in Node.js extends to creating scalable and efficient back-end solutions, ensuring interactions with databases and APIs.",
   },
   {
     id: nanoid(),
     title: "SQL",
     icon: <FaDatabase className="h-16 w-16 text-emerald-500" />,
-    text: "When it comes to SQL database management, I skillfully implement robust solutions that prioritize data integrity, scalability, and efficient retrieval.",
+    text: "When it comes to SQL database management, I skillfully implement solutions that prioritize data integrity, scalability, and efficient retrieval.",
   },
 ];
 
@@ -94,7 +94,7 @@ export const projects = [
     url: "https://menuitems2.netlify.app/",
     github: "https://github.com/alexandratantos",
     title: "Menu App",
-    text: "Experience a delightful culinary journey on our JavaScript-based menu website. Crafted for simplicity and elegance, explore a diverse array of dishes thoughtfully organized.",
+    text: "Experience a delightful culinary journey on this JavaScript-based menu website. Crafted for simplicity and elegance, explore a diverse array of dishes thoughtfully organized.",
   },
   {
     id: nanoid(),
@@ -127,7 +127,7 @@ export const projects = [
     url: "https://reactcolorgenerator2.netlify.app/",
     github: "https://github.com/alexandratantos",
     title: "Color Generator ",
-    text: "Explore a world of vibrant possibilities with our color generator app powered by React and the values.js library. Effortlessly discover stunning color palettes with just a click. ",
+    text: "Explore a world of possibilities with our color generator app powered by React and the values.js library. Effortlessly discover stunning color palettes with just a click. ",
   },
   {
     id: nanoid(),
@@ -135,7 +135,7 @@ export const projects = [
     url: "https://toursreactapp23.netlify.app/",
     github: "https://github.com/alexandratantos",
     title: "Tours ",
-    text: "Discover the world's wonders effortlessly, as our intuitive interface guides you through captivating destinations and extraordinary adventures.",
+    text: "Discover the world's wonders, as our intuitive interface guides you through captivating destinations and extraordinary adventures.",
   },
   {
     id: nanoid(),
@@ -169,7 +169,7 @@ export const games = [
     url: "https://simon-game-app0.netlify.app",
     github: "https://github.com/alexandratantos",
     title: "Simon Says",
-    text: "Dive into the classic fun of Simon Says with our online game website, expertly designed for an engaging experience. Enjoy the nostalgia with a sleek and responsive interface, making a delightful challenge. ",
+    text: "Dive into the classic fun of Simon Says with our online game website, expertly designed for an engaging experience. Enjoy the nostalgia with a responsive interface, making an interesting challenge. ",
   },
   {
     id: nanoid(),
