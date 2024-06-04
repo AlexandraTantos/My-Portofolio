@@ -22,6 +22,7 @@ import rockpaperscissors from "./components/images/rock.png";
 import grocery from "./components/images/Grocery.png";
 //import mixmaster from "./components/images/mixmaster.png";
 import reactstore from "./components/images/reactstore.png";
+import dataStructures from "./components/images/data-structures.png";
 //import githubusers from "./components/images/githubusers.png";
 
 export const links = [
@@ -151,6 +152,14 @@ export const projects = [
     github: "https://github.com/alexandratantos",
     title: "Grocery Buddy",
     text: "Seamlessly organize, plan, and streamline your grocery lists with an intuitive interface. Elevate your shopping routine and enjoy a stress-free way to stay organized.",
+  },
+  {
+    id: nanoid(),
+    img: dataStructures,
+    url: "https://datastructures01.netlify.app/",
+    github: "https://github.com/alexandratantos",
+    title: "Linked Lists,Stack and Queue",
+    text: "As a web developer, understanding data structures is crucial. The main methods of these data structures(LinkedLists, Stack and Queue) are displayed on this web page using HTML,CSS and JS. ",
   },
 ];
 export const games = [
