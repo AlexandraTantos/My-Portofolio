@@ -74,6 +74,14 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
+    img: dataStructures,
+    url: "https://datastructures01.netlify.app/",
+    github: "https://github.com/alexandratantos",
+    title: "Linked Lists, Stack and Queue",
+    text: "As a web developer, understanding data structures is crucial. The main methods of these data structures are displayed on this web page using HTML,CSS and JS. ",
+  },
+  {
+    id: nanoid(),
     img: reactstore,
     url: "https://comfystore123.netlify.app",
     github: "https://github.com/alexandratantos",
@@ -153,14 +161,6 @@ export const projects = [
     title: "Grocery Buddy",
     text: "Seamlessly organize, plan, and streamline your grocery lists with an intuitive interface. Elevate your shopping routine and enjoy a stress-free way to stay organized.",
   },*/
-  {
-    id: nanoid(),
-    img: dataStructures,
-    url: "https://datastructures01.netlify.app/",
-    github: "https://github.com/alexandratantos",
-    title: "Linked Lists, Stack and Queue",
-    text: "As a web developer, understanding data structures is crucial. The main methods of these data structures are displayed on this web page using HTML,CSS and JS. ",
-  },
 ];
 export const games = [
   {
