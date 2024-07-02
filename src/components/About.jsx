@@ -28,7 +28,7 @@ const About = () => {
             ideas flourish, and innovation takes center stage. My goal is to not
             only meet project requirements but to exceed expectations by
             delivering solutions that blend creativity and functionality.
-            Explore my portfolio to explore my technical skills, creativity, and
+            Explore my portfolio to see my technical skills, creativity, and
             passion for web development.
           </p>
         </article>
