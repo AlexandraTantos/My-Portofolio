@@ -8,9 +8,9 @@ const About = () => {
         <article>
           <SectionTitle text="About me" />
           <p className="text-slate-600 mt-8 leading-loose">
-            Welcome to my digital domain! I'm a web developer who’s passionate
-            about crafting engaging and memorable online experiences. I love
-            bringing ideas to life through clean, functional design and
+            Welcome to my digital domain! I&apos;m a web developer who’s
+            passionate about crafting engaging and memorable online experiences.
+            I love bringing ideas to life through clean, functional design and
             attention to detail.{" "}
           </p>
           <p className="text-slate-600 mt-8 leading-loose">

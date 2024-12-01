@@ -1,5 +1,7 @@
 import { FaGithubSquare } from "react-icons/fa";
 import { TbWorldWww } from "react-icons/tb";
+import PropTypes from "prop-types";
+
 const ProjectsCard = ({ url, img, github, title, text }) => {
   return (
     <article className="bg-white rounded-lg shadow-md hover:shadow-xl duration-300">
@@ -24,4 +26,11 @@ const ProjectsCard = ({ url, img, github, title, text }) => {
   );
 };
 
+ProjectsCard.propTypes = {
+  url: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
+  github: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+};
 export default ProjectsCard;
