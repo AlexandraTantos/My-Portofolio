@@ -8,28 +8,26 @@ const About = () => {
         <article>
           <SectionTitle text="About me" />
           <p className="text-slate-600 mt-8 leading-loose">
-            Welcome to my digital domain! I am a passionate and versatile web
-            developer dedicated to crafting immersive online experiences. With a
-            keen eye for detail and a love for elegant, functional design, I
-            bring ideas to life in the digital world. My journey in web
-            development has equipped me with a diverse skill set that spans
-            front-end and back-end technologies.{" "}
+            Welcome to my digital domain! I'm a web developer who’s passionate
+            about crafting engaging and memorable online experiences. I love
+            bringing ideas to life through clean, functional design and
+            attention to detail.{" "}
           </p>
           <p className="text-slate-600 mt-8 leading-loose">
-            Proficient in HTML, CSS, and JavaScript, I specialize in creating
-            responsive and dynamic websites that captivate users. Additionally,
-            my expertise extends to popular frameworks like React, where I excel
-            in building interactive and engaging user interfaces. On the server
-            side, I am well-versed in utilizing Node.js and Express to create
-            scalable back-end solutions.{" "}
+            My journey in web development has given me a well-rounded skill set,
+            covering both front-end and back-end technologies. I thrive on
+            building responsive and dynamic websites using HTML, CSS, and
+            JavaScript. React is my go-to framework for creating interactive and
+            user-friendly interfaces, while on the back end, I rely on Node.js
+            and Express to develop scalable, efficient solutions.{" "}
           </p>
           <p className="text-slate-600 mt-8 leading-loose">
-            Collaborative by nature, I like working in team environments where
-            ideas flourish, and innovation takes center stage. My goal is to not
-            only meet project requirements but to exceed expectations by
-            delivering solutions that blend creativity and functionality.
-            Explore my portfolio to see my technical skills, creativity, and
-            passion for web development.
+            Collaboration is at the heart of how I work. I enjoy being part of a
+            team where creativity flows, and innovation takes the lead. My aim
+            is always to go beyond simply meeting project goals—I want to create
+            solutions that are as creative as they are functional. Explore my
+            portfolio to see my technical skills, creativity, and passion for
+            web development.
           </p>
         </article>
       </div>
