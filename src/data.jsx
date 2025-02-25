@@ -1,12 +1,6 @@
 import { nanoid } from "nanoid";
-import {
-  FaHtml5,
-  FaJs,
-  FaReact,
-  FaSass,
-  FaNode,
-  FaDatabase,
-} from "react-icons/fa";
+import { FaHtml5, FaJs, FaReact, FaSass, FaDatabase } from "react-icons/fa";
+import { SiDotnet } from "react-icons/si";
 //Images for projects
 import backroads from "./components/images/backroads.png";
 import colorGenerator from "./components/images/color-generator.png";
@@ -35,39 +29,39 @@ export const links = [
 export const skills = [
   {
     id: nanoid(),
-    title: "HTML&CSS",
+    title: "HTML & CSS",
     icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
-    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
+    text: "Skilled in HTML & CSS, creating responsive and visually appealing websites for a great user experience.",
   },
   {
     id: nanoid(),
     title: "JavaScript",
     icon: <FaJs className="h-16 w-16 text-emerald-500" />,
-    text: "Proficient in JavaScript, crafting dynamic and interactive web applications that prioritize smooth user interactions and enhanced functionality.",
+    text: "Proficient in JavaScript, building dynamic and interactive web applications with smooth functionality.",
   },
   {
     id: nanoid(),
     title: "React",
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
-    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+    text: "Experienced in React, developing fast and efficient front-end applications using a component-based approach.",
   },
   {
     id: nanoid(),
     title: "Sass",
     icon: <FaSass className="h-16 w-16 text-emerald-500" />,
-    text: "Enhance the visual appeal of my projects by incorporating Sass, seamlessly merging style and efficiency to elevate the overall aesthetic experience.",
+    text: "Using Sass to write clean and organized styles, improving project design and maintainability.",
   },
   {
     id: nanoid(),
-    title: "Node",
-    icon: <FaNode className="h-16 w-16 text-emerald-500" />,
-    text: "My proficiency in Node.js extends to creating scalable and efficient back-end solutions, ensuring interactions with databases and APIs.",
+    title: ".NET",
+    icon: <SiDotnet className="h-16 w-16 text-emerald-500" />, // Replace with an appropriate .NET icon if needed
+    text: "Experienced in .NET, developing scalable and secure back-end solutions for web applications and APIs.",
   },
   {
     id: nanoid(),
     title: "SQL",
     icon: <FaDatabase className="h-16 w-16 text-emerald-500" />,
-    text: "When it comes to SQL database management, I skillfully implement solutions that prioritize data integrity, scalability, and efficient retrieval.",
+    text: "Skilled in SQL, designing efficient databases that ensure data integrity and quick retrieval.",
   },
 ];
 
