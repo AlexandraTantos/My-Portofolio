@@ -7,8 +7,8 @@ import colorGenerator from "./components/images/color-generator.png";
 import Tours from "./components/images/tours.jpg";
 import unsplash from "./components/images/unsplash.png";
 import menu from "./components/images/menu.png";
-import FirstAidImg from "./components/images/FirstAidImg";
-import SafeAlertImg from "./components/images/SafeAlertImg";
+import FirstAidImg from "./components/images/FirstAidImg.png";
+import SafeAlertImg from "./components/images/SafeAlertImg.png";
 
 //import comfy from "./components/images/comfy.png";
 import natours from "./components/images/natours.png";
@@ -190,7 +190,6 @@ export const mobileApps = [
   {
     id: nanoid(),
     img: FirstAidImg,
-    url: "",
     github: "https://github.com/AlexandraTantos/FirstAidMobileApp",
     title: "First Aid App",
     text: "A mobile app that provides step-by-step first aid instructions and emergency contact alerts to help users respond quickly and effectively in urgent situations. ",
@@ -198,7 +197,6 @@ export const mobileApps = [
   {
     id: nanoid(),
     img: SafeAlertImg,
-    url: "",
     github: "https://github.com/AlexandraTantos/SafeAlertMobileApp",
     title: "Safe Alert App",
     text: "A personal safety app featuring SOS alerts, geofence-based weather warnings, and instant notifications to trusted contacts for enhanced emergency response.",
