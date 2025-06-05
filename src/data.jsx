@@ -190,6 +190,7 @@ export const mobileApps = [
   {
     id: nanoid(),
     img: FirstAidImg,
+    url: "",
     github: "https://github.com/AlexandraTantos/FirstAidMobileApp",
     title: "First Aid App",
     text: "A mobile app that provides step-by-step first aid instructions and emergency contact alerts to help users respond quickly and effectively in urgent situations. ",
@@ -197,6 +198,7 @@ export const mobileApps = [
   {
     id: nanoid(),
     img: SafeAlertImg,
+    url: "",
     github: "https://github.com/AlexandraTantos/SafeAlertMobileApp",
     title: "Safe Alert App",
     text: "A personal safety app featuring SOS alerts, geofence-based weather warnings, and instant notifications to trusted contacts for enhanced emergency response.",
