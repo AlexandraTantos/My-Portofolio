@@ -8,26 +8,29 @@ const About = () => {
         <article>
           <SectionTitle text="About me" />
           <p className="text-slate-600 mt-8 leading-loose">
-            Welcome to my digital domain! I&apos;m a web developer who’s
-            passionate about crafting engaging and memorable online experiences.
-            I love bringing ideas to life through clean, functional design and
-            attention to detail.{" "}
+            Welcome to my digital domain! I&apos;m a Computer Science student
+            with a background in physiotherapy—I used to help people move
+            better, now I help code run smoother.{" "}
           </p>
           <p className="text-slate-600 mt-8 leading-loose">
             My journey in web development has given me a well-rounded skill set,
             covering both front-end and back-end technologies. I thrive on
             building responsive and dynamic websites using HTML, CSS, and
             JavaScript. React is my go-to framework for creating interactive and
-            user-friendly interfaces, while on the back end, I rely on Node.js
-            and Express to develop scalable, efficient solutions.{" "}
+            user-friendly interfaces, while on the back end, I rely on .NET to
+            develop scalable, efficient solutions.{" "}
           </p>
           <p className="text-slate-600 mt-8 leading-loose">
-            Collaboration is at the heart of how I work. I enjoy being part of a
-            team where creativity flows, and innovation takes the lead. My aim
-            is always to go beyond simply meeting project goals—I want to create
-            solutions that are as creative as they are functional. Explore my
-            portfolio to see my technical skills, creativity, and passion for
-            web development.
+            During university, I&apos;ve built multiple applications—both web
+            and mobile—including Android apps using Java, and desktop projects
+            using C++ or C#. These experiences gave me a solid foundation in
+            software development, teamwork, and problem-solving.
+          </p>
+          <p className="text-slate-600 mt-8 leading-loose">
+            I love learning new technologies and turning ideas into functional,
+            user-friendly applications. Whether it&apos;s frontend interfaces or
+            backend logic, I enjoy building things that are clean, reliable, and
+            useful.
           </p>
         </article>
       </div>

@@ -1,5 +1,5 @@
 import { nanoid } from "nanoid";
-import { FaHtml5, FaJs, FaReact, FaSass, FaDatabase } from "react-icons/fa";
+import { FaHtml5, FaJs, FaReact, FaDatabase, FaJava } from "react-icons/fa";
 import { SiDotnet } from "react-icons/si";
 //Images for projects
 import backroads from "./components/images/backroads.png";
@@ -31,37 +31,37 @@ export const skills = [
     id: nanoid(),
     title: "HTML & CSS",
     icon: <FaHtml5 className="h-16 w-16 text-emerald-500" />,
-    text: "Skilled in HTML & CSS, creating responsive and visually appealing websites for a great user experience.",
+    text: "Solid understanding of HTML and CSS, used to build responsive and well-structured web interfaces.",
   },
   {
     id: nanoid(),
     title: "JavaScript",
     icon: <FaJs className="h-16 w-16 text-emerald-500" />,
-    text: "Proficient in JavaScript, building dynamic and interactive web applications with smooth functionality.",
+    text: "Applying core JavaScript concepts to develop interactive elements and improve front-end behavior.",
   },
   {
     id: nanoid(),
     title: "React",
     icon: <FaReact className="h-16 w-16 text-emerald-500" />,
-    text: "Experienced in React, developing fast and efficient front-end applications using a component-based approach.",
+    text: "Learning React by building small applications and gaining experience with component-based architecture.",
   },
   {
     id: nanoid(),
-    title: "Sass",
-    icon: <FaSass className="h-16 w-16 text-emerald-500" />,
-    text: "Using Sass to write clean and organized styles, improving project design and maintainability.",
+    title: "Java",
+    icon: <FaJava className="h-16 w-16 text-emerald-500" />,
+    text: "Developing mobile applications using Java, with a focus on Android platform fundamentals.",
   },
   {
     id: nanoid(),
     title: ".NET",
-    icon: <SiDotnet className="h-16 w-16 text-emerald-500" />, // Replace with an appropriate .NET icon if needed
-    text: "Experienced in .NET, developing scalable and secure back-end solutions for web applications and APIs.",
+    icon: <SiDotnet className="h-16 w-16 text-emerald-500" />,
+    text: "Hands-on experience with .NET for developing basic APIs and understanding server-side logic.",
   },
   {
     id: nanoid(),
     title: "SQL",
     icon: <FaDatabase className="h-16 w-16 text-emerald-500" />,
-    text: "Skilled in SQL, designing efficient databases that ensure data integrity and quick retrieval.",
+    text: "Familiar with SQL, focusing on database structure, data integrity, and writing effective queries.",
   },
 ];
 
