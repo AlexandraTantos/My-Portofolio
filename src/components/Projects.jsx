@@ -1,5 +1,5 @@
 import ProjectsCard from "./ProjectsCard";
-import { games, projects } from "../data";
+import { mobileApps, games, projects } from "../data";
 import SectionTitle from "./SectionTitle";
 const Projects = () => {
   return (
@@ -9,6 +9,14 @@ const Projects = () => {
         <div className="py-16 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
           {projects.map((project) => {
             return <ProjectsCard key={project.id} {...project} />;
+          })}
+        </div>
+      </section>
+      <section className="py-20 align-element" id="mobileApps">
+        <SectionTitle text="Mobile Applications" />
+        <div className="py-16 grid lg:grid-cols-2 xl:grid-cols-3 gap-8">
+          {mobileApps.map((app) => {
+            return <ProjectsCard key={app.id} {...app} />;
           })}
         </div>
       </section>

@@ -7,6 +7,9 @@ import colorGenerator from "./components/images/color-generator.png";
 import Tours from "./components/images/tours.jpg";
 import unsplash from "./components/images/unsplash.png";
 import menu from "./components/images/menu.png";
+import FirstAidImg from "./components/images/FirstAidImg";
+import SafeAlertImg from "./components/images/SafeAlertImg";
+
 //import comfy from "./components/images/comfy.png";
 import natours from "./components/images/natours.png";
 import color from "./components/images/color.png";
@@ -180,5 +183,22 @@ export const games = [
     github: "https://github.com/alexandratantos",
     title: "Rock Paper Scissors",
     text: "Engage in the timeless fun of Rock, Paper, Scissors with our online game website. Experience the classic hand-game excitement through an intuitive and visually appealing design.",
+  },
+];
+
+export const mobileApps = [
+  {
+    id: nanoid(),
+    img: FirstAidImg,
+    github: "https://github.com/AlexandraTantos/FirstAidMobileApp",
+    title: "First Aid App",
+    text: "A mobile app that provides step-by-step first aid instructions and emergency contact alerts to help users respond quickly and effectively in urgent situations. ",
+  },
+  {
+    id: nanoid(),
+    img: SafeAlertImg,
+    github: "https://github.com/AlexandraTantos/SafeAlertMobileApp",
+    title: "Safe Alert App",
+    text: "A personal safety app featuring SOS alerts, geofence-based weather warnings, and instant notifications to trusted contacts for enhanced emergency response.",
   },
 ];
